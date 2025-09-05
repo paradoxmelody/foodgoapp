@@ -1,7 +1,7 @@
 # Hi I hope this message finds you in great spirits.
 
 Please read instructions carefully. 
-Pretty please...Life becomes super easy when you brain in calm so in order to calm your brain 
+Pretty please...Life becomes super easy when your brain is calm so in order to calm your brain 
 consider doing the following before proceeding with this folder:
                                  - 1 Drink some water (preferably with some lemon or cucumber)
                                  - 2 Breathe in and out (Try to do 4 times)
