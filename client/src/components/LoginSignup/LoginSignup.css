@@ -1,0 +1,109 @@
+/* General container */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background:white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card box */
+.container > .header,
+.inputs,
+.forgot-password,
+.submit-container {
+  width: 100%;
+  max-width: 380px;
+  margin: auto;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.95); /* white with transparency */
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Title */
+.header .text {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #2c2c2c;
+  text-align: center;
+}
+
+.header .underline {
+  width: 50px;
+  height: 3px;
+  background: #ff6600; 
+  margin: 10px auto;
+  border-radius: 2px;
+}
+
+/* Input fields */
+.inputs {
+  margin-top: 20px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  background: #f1f3f6;
+  padding: 0.7rem;
+  margin: 12px 0;
+  border-radius: 8px;
+}
+
+.input img {
+  width: 20px;
+  margin-right: 10px;
+  opacity: 0.7;
+}
+
+.input input {
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 100%;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+/* Forgot password */
+.forgot-password {
+  font-size: 0.85rem;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  color: #555;
+}
+
+.forgot-password span {
+  color: #ff6600;
+  cursor: pointer;
+}
+
+/* Submit buttons */
+.submit-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.submit {
+  flex: 1;
+  background: #0a1f44; /* dark navy like FoodGo */
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.submit:hover {
+  background: #ff6600; /* hover orange */
+}
